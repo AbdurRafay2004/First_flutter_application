@@ -22,9 +22,6 @@ class MyApp extends StatelessWidget {
                 colors: [
                   Color.fromARGB(255, 255, 77, 0),
                   Color.fromARGB(255, 255, 255, 255),
-                  // Colors.amber,
-                  // Colors.yellow,
-                  // Colors.lightGreen,
                 ],
               ),
             ),
