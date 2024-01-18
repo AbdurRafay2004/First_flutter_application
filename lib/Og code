@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
       (
         appBar: AppBar
         (
-            backgroundColor: Colors.deepOrangeAccent,
+            backgroundColor: Colors.Black,
             toolbarHeight: 25,
             // leading: Icon(Icons.menu),
             title: const Text
-            ("...(*￣０￣)ノSecret Doc",
+            ("Sufiyan",
                 style: TextStyle
                 (
                     color: Colors.white,
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         body: const Center
         (
           child: Text
-          ("Name: Abdur Rafay\nProfession: Intern at NextTech\nAddress: Mirpur",
+          ("Name: Abu Sufiyan\nProfession: Intern at NextTech\nAddress: Mirpur",
             style: TextStyle
             (
               color: Colors.black,

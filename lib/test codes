@@ -5,7 +5,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key});
+  const MyApp({super.key});
   // final String name;
 
   @override
@@ -20,16 +20,13 @@ class MyApp extends StatelessWidget {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-                Colors.black,
-                Colors.white,
+                  Color.fromARGB(255, 255, 77, 0),
+                  Color.fromARGB(255, 255, 255, 255),
                 ],
               ),
             ),
           ),
-              ),
-            ),
-          ),
-          toolbarHeight: 80,
+          toolbarHeight: 0,
           title: const Text(
             "...(*￣０￣)ノSecret Doc",
             style: TextStyle(
@@ -40,14 +37,16 @@ class MyApp extends StatelessWidget {
           ),
           centerTitle: true,
         ),
-        body: const Center(
-          child: Text(
-            "Name: Abdur Rafay\nProfession: Intern at NextTech\nAddress: Mirpur",
-            style: TextStyle(
+        body: const Center
+        (
+          child: Text
+          ("Name: Abdur Rafay\nProfession: Intern at NextTech\nAddress: Mirpur",
+            style: TextStyle
+            (
               color: Colors.black,
-              fontSize: 18,
+              fontSize: 20,
               fontWeight: FontWeight.w600,
-            ),
+            )
           ),
         ),
       ),
